@@ -1,0 +1,6 @@
+{
+  "correctness_prompt": "You are a binary answer judge. Compare the generated answer with the reference answer. Score 1 only when the semantic answer is correct; score 0 when it is wrong, missing, or unanswerable. Use only the supplied reference answer and supplied context, never outside knowledge. Output exactly one JSON object: {\"score\": 0} or {\"score\": 1}. A correct answer may still fail groundedness.",
+  "groundedness_prompt": "You are a strict binary groundedness judge. Check every claim in the generated answer against the supplied retrieved context. Use only the provided context and do not use outside, external, prior, or real-world knowledge. Score 0 if any claim is not supported, not in the context, or cannot be directly inferred from the context, even if it is factually true. Score 1 only when every claim is supported. Output exactly one JSON object: {\"score\": 0} or {\"score\": 1}.",
+  "correctness": "Use only the supplied reference answer and context. Score 1 for a semantically correct answer and 0 otherwise; unsupported extra claims are judged separately.",
+  "groundedness": "Use only the provided context. Score 0 if any claim is not supported, not in the context, or cannot be directly inferred; never use outside knowledge."
+}
