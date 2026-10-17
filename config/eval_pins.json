@@ -1,0 +1,15 @@
+{
+  "dataset_size": 36,
+  "dataset_sha256": "a6121c9259ff5b49f8b64c38825f3b40726cc29d1e3e72d430059d6a0ee09f18",
+  "llm_judge_model": "local-deterministic-judge-v1",
+  "pipeline_a_embedder": "hash-embedding-v1",
+  "pipeline_b_embedder": "hash-embedding-v1",
+  "chunker_version": "fixed-size-160-v1",
+  "pipeline_a_top_k": 2,
+  "pipeline_b_top_k": 5,
+  "judge_temperature": 0.0,
+  "judge_model": "local-deterministic-judge-v1",
+  "embedding_model": "hash-embedding-v1",
+  "temperature": 0.0,
+  "top_k": 2
+}
