@@ -1,0 +1,626 @@
+[
+  {
+    "id": "hotpot_fixture_001",
+    "generated_answer": "Ada Lovelace",
+    "retrieved_context_titles": [
+      "Ada Lovelace"
+    ],
+    "retrieved_contexts": [
+      "Ada Lovelace wrote the first published algorithm intended for Charles Babbage's Analytical Engine."
+    ],
+    "metrics": {
+      "recall": 0.5,
+      "correctness": 1,
+      "groundedness": 1,
+      "latency_ms": 2.07785697421059
+    }
+  },
+  {
+    "id": "hotpot_fixture_002",
+    "generated_answer": "Microsoft",
+    "retrieved_context_titles": [
+      "Apple Inc.",
+      "Microsoft"
+    ],
+    "retrieved_contexts": [
+      "Apple Inc. was founded in 1976 by Steve Jobs, Steve Wozniak, and Ronald Wayne.",
+      "Microsoft was founded in 1975 by Bill Gates and Paul Allen."
+    ],
+    "metrics": {
+      "recall": 1.0,
+      "correctness": 1,
+      "groundedness": 1,
+      "latency_ms": 2.361672988627106
+    }
+  },
+  {
+    "id": "hotpot_fixture_003",
+    "generated_answer": "Earth",
+    "retrieved_context_titles": [
+      "Earth",
+      "Mars"
+    ],
+    "retrieved_contexts": [
+      "Earth completes an orbit around the Sun in about 365 days and is the third planet from the Sun.",
+      "Mars is the fourth planet from the Sun and takes about 687 Earth days to orbit it."
+    ],
+    "metrics": {
+      "recall": 1.0,
+      "correctness": 1,
+      "groundedness": 1,
+      "latency_ms": 2.662715967744589
+    }
+  },
+  {
+    "id": "hotpot_fixture_004",
+    "generated_answer": "Nile River",
+    "retrieved_context_titles": [
+      "Nile River"
+    ],
+    "retrieved_contexts": [
+      "The Nile is commonly listed as the world's longest river, flowing through northeastern Africa."
+    ],
+    "metrics": {
+      "recall": 0.5,
+      "correctness": 1,
+      "groundedness": 1,
+      "latency_ms": 2.9683649772778153
+    }
+  },
+  {
+    "id": "hotpot_fixture_005",
+    "generated_answer": "Elvis Presley",
+    "retrieved_context_titles": [
+      "The Beatles",
+      "Elvis Presley"
+    ],
+    "retrieved_contexts": [
+      "The Beatles were an English rock band formed in Liverpool in 1960.",
+      "Elvis Presley began recording and performing professionally in the 1950s and is known as the King of Rock and Roll."
+    ],
+    "metrics": {
+      "recall": 1.0,
+      "correctness": 1,
+      "groundedness": 1,
+      "latency_ms": 2.058929007034749
+    }
+  },
+  {
+    "id": "hotpot_fixture_006",
+    "generated_answer": "Python",
+    "retrieved_context_titles": [
+      "Python",
+      "Java"
+    ],
+    "retrieved_contexts": [
+      "Python is a programming language first released in 1991 and designed by Guido van Rossum.",
+      "Java is a programming language first released by Sun Microsystems in 1995."
+    ],
+    "metrics": {
+      "recall": 1.0,
+      "correctness": 1,
+      "groundedness": 1,
+      "latency_ms": 2.364874992053956
+    }
+  },
+  {
+    "id": "hotpot_fixture_007",
+    "generated_answer": "Mount Everest",
+    "retrieved_context_titles": [
+      "Mount Everest"
+    ],
+    "retrieved_contexts": [
+      "Mount Everest is the highest mountain above sea level, with its summit in the Himalayas."
+    ],
+    "metrics": {
+      "recall": 0.5,
+      "correctness": 1,
+      "groundedness": 1,
+      "latency_ms": 2.8023250051774085
+    }
+  },
+  {
+    "id": "hotpot_fixture_008",
+    "generated_answer": "Apollo 11",
+    "retrieved_context_titles": [
+      "Apollo 11",
+      "Apollo 13"
+    ],
+    "retrieved_contexts": [
+      "Apollo 11 was the first crewed mission to land humans on the Moon in 1969.",
+      "Apollo 13 was a 1970 lunar mission whose crew returned safely after an onboard oxygen-tank failure."
+    ],
+    "metrics": {
+      "recall": 1.0,
+      "correctness": 1,
+      "groundedness": 1,
+      "latency_ms": 3.0466869939118624
+    }
+  },
+  {
+    "id": "hotpot_fixture_009",
+    "generated_answer": "Marie Curie",
+    "retrieved_context_titles": [
+      "Marie Curie",
+      "Albert Einstein"
+    ],
+    "retrieved_contexts": [
+      "Marie Curie pioneered research on radioactivity and was the first person to win two Nobel Prizes.",
+      "Albert Einstein developed the theories of special and general relativity."
+    ],
+    "metrics": {
+      "recall": 1.0,
+      "correctness": 1,
+      "groundedness": 1,
+      "latency_ms": 2.078430959954858
+    }
+  },
+  {
+    "id": "hotpot_fixture_010",
+    "generated_answer": "Homer",
+    "retrieved_context_titles": [
+      "Homer"
+    ],
+    "retrieved_contexts": [
+      "Homer is the traditionally named ancient Greek poet associated with the Iliad and the Odyssey."
+    ],
+    "metrics": {
+      "recall": 0.5,
+      "correctness": 1,
+      "groundedness": 1,
+      "latency_ms": 2.3791880230419338
+    }
+  },
+  {
+    "id": "hotpot_fixture_011",
+    "generated_answer": "Pacific Ocean",
+    "retrieved_context_titles": [
+      "Pacific Ocean",
+      "Atlantic Ocean"
+    ],
+    "retrieved_contexts": [
+      "The Pacific Ocean is the largest and deepest ocean on Earth.",
+      "The Atlantic Ocean is the second-largest ocean and separates the Americas from Europe and Africa."
+    ],
+    "metrics": {
+      "recall": 1.0,
+      "correctness": 1,
+      "groundedness": 1,
+      "latency_ms": 2.70761497085914
+    }
+  },
+  {
+    "id": "hotpot_fixture_012",
+    "generated_answer": "University of Oxford",
+    "retrieved_context_titles": [
+      "University of Oxford",
+      "Harvard University"
+    ],
+    "retrieved_contexts": [
+      "The University of Oxford is an ancient university in England, with teaching documented in the twelfth century.",
+      "Harvard University was established in 1636 in Massachusetts and is the oldest institution of higher learning in the United States."
+    ],
+    "metrics": {
+      "recall": 1.0,
+      "correctness": 1,
+      "groundedness": 1,
+      "latency_ms": 3.0378479859791696
+    }
+  },
+  {
+    "id": "hotpot_fixture_013",
+    "generated_answer": "Internet",
+    "retrieved_context_titles": [
+      "Internet"
+    ],
+    "retrieved_contexts": [
+      "The Internet is a global network of interconnected computer networks that predates the World Wide Web."
+    ],
+    "metrics": {
+      "recall": 0.5,
+      "correctness": 1,
+      "groundedness": 1,
+      "latency_ms": 2.2745939786545932
+    }
+  },
+  {
+    "id": "hotpot_fixture_014",
+    "generated_answer": "Johannes Gutenberg",
+    "retrieved_context_titles": [
+      "Johannes Gutenberg",
+      "Tim Berners-Lee"
+    ],
+    "retrieved_contexts": [
+      "Johannes Gutenberg introduced mechanical movable-type printing to Europe in the fifteenth century.",
+      "Tim Berners-Lee invented the World Wide Web while working at CERN in 1989."
+    ],
+    "metrics": {
+      "recall": 1.0,
+      "correctness": 1,
+      "groundedness": 1,
+      "latency_ms": 2.3796609602868557
+    }
+  },
+  {
+    "id": "hotpot_fixture_015",
+    "generated_answer": "Wolfgang Amadeus Mozart",
+    "retrieved_context_titles": [
+      "Ludwig van Beethoven",
+      "Wolfgang Amadeus Mozart"
+    ],
+    "retrieved_contexts": [
+      "Ludwig van Beethoven was a German composer whose career followed that of Wolfgang Amadeus Mozart.",
+      "Wolfgang Amadeus Mozart was born in 1756 and became a prominent classical composer."
+    ],
+    "metrics": {
+      "recall": 1.0,
+      "correctness": 1,
+      "groundedness": 1,
+      "latency_ms": 2.7906729956157506
+    }
+  },
+  {
+    "id": "hotpot_fixture_016",
+    "generated_answer": "World War I",
+    "retrieved_context_titles": [
+      "World War I"
+    ],
+    "retrieved_contexts": [
+      "World War I began in 1914 and ended in 1918."
+    ],
+    "metrics": {
+      "recall": 0.5,
+      "correctness": 1,
+      "groundedness": 1,
+      "latency_ms": 2.977374999318272
+    }
+  },
+  {
+    "id": "hotpot_fixture_017",
+    "generated_answer": "Moon",
+    "retrieved_context_titles": [
+      "Moon",
+      "Mars"
+    ],
+    "retrieved_contexts": [
+      "The Moon is Earth's natural satellite and is much closer to Earth than Mars.",
+      "Mars is the fourth planet from the Sun and takes about 687 Earth days to orbit it."
+    ],
+    "metrics": {
+      "recall": 1.0,
+      "correctness": 1,
+      "groundedness": 1,
+      "latency_ms": 2.074313990306109
+    }
+  },
+  {
+    "id": "hotpot_fixture_018",
+    "generated_answer": "DNA",
+    "retrieved_context_titles": [
+      "DNA",
+      "RNA"
+    ],
+    "retrieved_contexts": [
+      "DNA stores hereditary information in living organisms and is generally more chemically stable than RNA.",
+      "RNA helps express genetic information and is generally less chemically stable than DNA."
+    ],
+    "metrics": {
+      "recall": 1.0,
+      "correctness": 1,
+      "groundedness": 1,
+      "latency_ms": 2.583647961728275
+    }
+  },
+  {
+    "id": "hotpot_fixture_019",
+    "generated_answer": "Sahara Desert",
+    "retrieved_context_titles": [
+      "Sahara Desert"
+    ],
+    "retrieved_contexts": [
+      "The Sahara is the largest hot desert in the world and covers much of North Africa."
+    ],
+    "metrics": {
+      "recall": 0.5,
+      "correctness": 1,
+      "groundedness": 1,
+      "latency_ms": 2.87354999454692
+    }
+  },
+  {
+    "id": "hotpot_fixture_020",
+    "generated_answer": "Amazon rainforest",
+    "retrieved_context_titles": [
+      "Amazon rainforest",
+      "Congo rainforest"
+    ],
+    "retrieved_contexts": [
+      "The Amazon rainforest is the largest tropical rainforest by area and lies mainly in South America.",
+      "The Congo rainforest is the second-largest tropical rainforest and lies in central Africa."
+    ],
+    "metrics": {
+      "recall": 1.0,
+      "correctness": 1,
+      "groundedness": 1,
+      "latency_ms": 3.1825259793549776
+    }
+  },
+  {
+    "id": "hotpot_fixture_021",
+    "generated_answer": "Ford Motor Company",
+    "retrieved_context_titles": [
+      "Tesla Motors",
+      "Ford Motor Company"
+    ],
+    "retrieved_contexts": [
+      "Tesla Motors was founded in 2003 and develops electric vehicles and energy products.",
+      "Ford Motor Company was founded in 1903 by Henry Ford and his associates."
+    ],
+    "metrics": {
+      "recall": 1.0,
+      "correctness": 1,
+      "groundedness": 1,
+      "latency_ms": 2.078704012092203
+    }
+  },
+  {
+    "id": "hotpot_fixture_022",
+    "generated_answer": "Athens",
+    "retrieved_context_titles": [
+      "Athens"
+    ],
+    "retrieved_contexts": [
+      "Athens is an ancient Greek city with a history extending back more than three thousand years."
+    ],
+    "metrics": {
+      "recall": 0.5,
+      "correctness": 1,
+      "groundedness": 1,
+      "latency_ms": 2.518837049137801
+    }
+  },
+  {
+    "id": "hotpot_fixture_023",
+    "generated_answer": "Linux",
+    "retrieved_context_titles": [
+      "Linux",
+      "Windows"
+    ],
+    "retrieved_contexts": [
+      "The Linux kernel was first released by Linus Torvalds in 1991.",
+      "Microsoft Windows was first released as a graphical operating environment in 1985."
+    ],
+    "metrics": {
+      "recall": 1.0,
+      "correctness": 1,
+      "groundedness": 1,
+      "latency_ms": 2.7981800376437604
+    }
+  },
+  {
+    "id": "hotpot_fixture_024",
+    "generated_answer": "Statue of Liberty",
+    "retrieved_context_titles": [
+      "Eiffel Tower",
+      "Statue of Liberty"
+    ],
+    "retrieved_contexts": [
+      "The Eiffel Tower was completed in Paris in 1889 for the Exposition Universelle.",
+      "The Statue of Liberty was dedicated in New York Harbor in 1886."
+    ],
+    "metrics": {
+      "recall": 1.0,
+      "correctness": 1,
+      "groundedness": 1,
+      "latency_ms": 3.0894650262780488
+    }
+  },
+  {
+    "id": "hotpot_fixture_025",
+    "generated_answer": "Gold",
+    "retrieved_context_titles": [
+      "Gold"
+    ],
+    "retrieved_contexts": [
+      "Gold is a dense, yellow chemical element with the symbol Au and atomic number 79."
+    ],
+    "metrics": {
+      "recall": 0.5,
+      "correctness": 1,
+      "groundedness": 1,
+      "latency_ms": 2.1906360052525997
+    }
+  },
+  {
+    "id": "hotpot_fixture_026",
+    "generated_answer": "Venus",
+    "retrieved_context_titles": [
+      "Venus",
+      "Mercury"
+    ],
+    "retrieved_contexts": [
+      "Venus has the hottest planetary surface in the Solar System because of its dense carbon-dioxide atmosphere.",
+      "Mercury is the closest planet to the Sun and has a very thin exosphere."
+    ],
+    "metrics": {
+      "recall": 1.0,
+      "correctness": 1,
+      "groundedness": 1,
+      "latency_ms": 2.3980950354598463
+    }
+  },
+  {
+    "id": "hotpot_fixture_027",
+    "generated_answer": "Jupiter",
+    "retrieved_context_titles": [
+      "Jupiter",
+      "Saturn"
+    ],
+    "retrieved_contexts": [
+      "Jupiter is the largest planet in the Solar System.",
+      "Saturn is the sixth planet from the Sun and is famous for its prominent ring system."
+    ],
+    "metrics": {
+      "recall": 1.0,
+      "correctness": 1,
+      "groundedness": 1,
+      "latency_ms": 2.6620489661581814
+    }
+  },
+  {
+    "id": "hotpot_fixture_028",
+    "generated_answer": "American Revolution",
+    "retrieved_context_titles": [
+      "American Revolution"
+    ],
+    "retrieved_contexts": [
+      "The American Revolution began in 1775 and led to the independence of the United States."
+    ],
+    "metrics": {
+      "recall": 0.5,
+      "correctness": 1,
+      "groundedness": 1,
+      "latency_ms": 2.962529950309545
+    }
+  },
+  {
+    "id": "hotpot_fixture_029",
+    "generated_answer": "Mona Lisa",
+    "retrieved_context_titles": [
+      "Mona Lisa",
+      "The Starry Night"
+    ],
+    "retrieved_contexts": [
+      "Leonardo da Vinci painted the Mona Lisa in the early sixteenth century.",
+      "Vincent van Gogh painted The Starry Night in 1889."
+    ],
+    "metrics": {
+      "recall": 1.0,
+      "correctness": 1,
+      "groundedness": 1,
+      "latency_ms": 2.0604549790732563
+    }
+  },
+  {
+    "id": "hotpot_fixture_030",
+    "generated_answer": "Modern Olympic Games",
+    "retrieved_context_titles": [
+      "Modern Olympic Games",
+      "FIFA World Cup"
+    ],
+    "retrieved_contexts": [
+      "The first modern Olympic Games were held in Athens in 1896.",
+      "The first FIFA World Cup was held in Uruguay in 1930."
+    ],
+    "metrics": {
+      "recall": 1.0,
+      "correctness": 1,
+      "groundedness": 1,
+      "latency_ms": 2.4899939890019596
+    }
+  },
+  {
+    "id": "hotpot_fixture_031",
+    "generated_answer": "Python",
+    "retrieved_context_titles": [
+      "Python"
+    ],
+    "retrieved_contexts": [
+      "Python is a programming language first released in 1991 and designed by Guido van Rossum."
+    ],
+    "metrics": {
+      "recall": 0.5,
+      "correctness": 1,
+      "groundedness": 1,
+      "latency_ms": 2.720263961236924
+    }
+  },
+  {
+    "id": "hotpot_fixture_032",
+    "generated_answer": "Himalayas",
+    "retrieved_context_titles": [
+      "Himalayas",
+      "Andes"
+    ],
+    "retrieved_contexts": [
+      "The Himalayas contain the world's highest peaks, including Mount Everest.",
+      "The Andes are the longest continental mountain range and run along western South America."
+    ],
+    "metrics": {
+      "recall": 1.0,
+      "correctness": 1,
+      "groundedness": 1,
+      "latency_ms": 3.024833044037223
+    }
+  },
+  {
+    "id": "hotpot_fixture_033",
+    "generated_answer": "Antarctica",
+    "retrieved_context_titles": [
+      "Antarctica",
+      "Greenland"
+    ],
+    "retrieved_contexts": [
+      "Antarctica is the fifth-largest continent and is larger than Greenland.",
+      "Greenland is the world's largest island and is covered mostly by an ice sheet."
+    ],
+    "metrics": {
+      "recall": 1.0,
+      "correctness": 1,
+      "groundedness": 1,
+      "latency_ms": 2.1893460070714355
+    }
+  },
+  {
+    "id": "hotpot_fixture_034",
+    "generated_answer": "Bitcoin",
+    "retrieved_context_titles": [
+      "Bitcoin"
+    ],
+    "retrieved_contexts": [
+      "Bitcoin's first block was mined in 2009."
+    ],
+    "metrics": {
+      "recall": 0.5,
+      "correctness": 1,
+      "groundedness": 1,
+      "latency_ms": 2.3622740409336984
+    }
+  },
+  {
+    "id": "hotpot_fixture_035",
+    "generated_answer": "Stonehenge",
+    "retrieved_context_titles": [
+      "Stonehenge",
+      "Pyramids of Giza"
+    ],
+    "retrieved_contexts": [
+      "Stonehenge is a prehistoric monument in England whose construction began thousands of years ago.",
+      "The Pyramids of Giza were built in ancient Egypt during the Fourth Dynasty."
+    ],
+    "metrics": {
+      "recall": 1.0,
+      "correctness": 1,
+      "groundedness": 1,
+      "latency_ms": 2.801229013130069
+    }
+  },
+  {
+    "id": "hotpot_fixture_036",
+    "generated_answer": "Boeing",
+    "retrieved_context_titles": [
+      "Boeing",
+      "Airbus"
+    ],
+    "retrieved_contexts": [
+      "Boeing was founded in 1916 as the Pacific Aero Products Company.",
+      "Airbus was formed in 1970 as a European aerospace consortium."
+    ],
+    "metrics": {
+      "recall": 1.0,
+      "correctness": 1,
+      "groundedness": 1,
+      "latency_ms": 3.088727011345327
+    }
+  }
+]
